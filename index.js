@@ -22,7 +22,7 @@ function addToTotal() {
 
     //adding objects to expenseObject
     expenseObject.expense = expense;
-    expenseObject.desc = expense;
+    expenseObject.desc = inputExpenseDesc;
     expenseObject.moment = new Date();
 
     //pushing object in allExpenses array
